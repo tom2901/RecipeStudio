@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPEC FOR VERSION 1.0 -->
+<Recipe version="1.0">
+	<Infos>
+		<Title>Test Food</Title>
+		<Category>Soup</Category>
+		<Meta author="Max Mustermann" date="01/01/2002" lang="en_US" recipeID="MaxMustermann.2002.TestFood.1"/>
+		<Ingredients>
+			<Item name="apple" ntype="object" amount="2" />
+			<Item name="water" ntype="liter" amount="12" />
+		</Ingredients>
+		<Time Work="2h" Total="24y"/>
+	</Infos>
+
+	<Steps>
+		<Step>
+			<Summary>Cut Apple</Summary>
+			<Text>
+				Cut the apple like shown in this picture:
+				<Img path="example" alt="example picture"/>
+			</Text>
+		</Step>
+		
+		<Step>
+			<Summary>Mix With Water</Summary>
+			<Text>
+				Put the apples and the water together in one bowl!
+				Just like this:
+				<Link recipeID="Author.1923.SomeOtherFood.3"/>
+				
+				If you do not know what a bowl is click
+				<LinkExt web="https://en.wikipedia.org/wiki/Bowl" text="here!"/>
+			</Text>
+		</Step>
+		
+		<Step>
+		
+		</Step>
+	
+	</Steps>
+</Recipe>
